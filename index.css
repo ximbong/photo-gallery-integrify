@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+nav img {
+  height: auto;
+  max-height: 80px;
+}
+
+section {
+  width: 100%;
+  padding: 40px 10%;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.right {
+  position: relative;
+}
+
+.right>img {
+  display: block;
+  width: 100%;
+}
+
+.right .image {
+  position: absolute;
+  left: 6.3%;
+  right: 6.3%;
+  top: 12.38%;
+  bottom: 12.38%;
+}
+
+.right .image {
+  position: absolute;
+  left: 6.5;
+  right: 6.5%;
+  top: 12.4%;
+  bottom: 12.4%;
+  overflow: hidden;
+}
