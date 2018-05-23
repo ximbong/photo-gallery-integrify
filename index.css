@@ -53,9 +53,9 @@ nav img {
 
 section {
   width: 100%;
-  padding: 40px 0;
+  padding: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -74,6 +74,7 @@ section {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
+  width: 500px;
 }
 
 .left .image {
@@ -82,7 +83,7 @@ section {
 
 .left img {
   display: block;
-  width: 500px;
+  width:100%;
   transition: 0.8s;
 }
 
@@ -105,7 +106,7 @@ section {
   border-radius: 5px;
   overflow: hidden;
   transition: 0.4s;
-  min-width:500px;
+  min-width:700px;
 }
 
 .right-part {
@@ -132,6 +133,7 @@ span {
   color: white;
   position: relative;
   z-index: 2;
+  padding:30px;
 }
 
 .arrow i {
