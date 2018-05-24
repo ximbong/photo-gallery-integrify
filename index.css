@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Karla');
 * {
   margin: 0px;
   padding: 0px;
@@ -15,21 +16,48 @@ body {
   display: flex;
   flex-flow: column;
   height: 100vh;
-  background: url('https://marketing-prod.global.ssl.fastly.net/sites/default/files/2017-03/GA_Coding_2x_2.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://marketing-prod.global.ssl.fastly.net/sites/default/files/2017-03/GA_Coding_2x_2.jpg');
   background-size: cover;
   overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10%;
+  padding: 10px 5%;
   background: white;
 }
 
 .bars {
-  margin-right: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.bars i {
+  margin-right: 20px;
+}
+
+.bars .index {
+  width: 60px;
+  padding: 5px 15px;
+  background: #FDB500;
+  border-radius: 10px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #353535;
+}
+
+i {
+  cursor: pointer;
 }
 
 .media-buttons i {
@@ -62,7 +90,6 @@ section {
 .section {
   display: grid;
   grid-template-columns: auto 1fr;
-  background-color: rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 1);
   box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 1);
@@ -74,7 +101,7 @@ section {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
-  width: 500px;
+  width: 600px;
 }
 
 .left .image {
@@ -83,13 +110,13 @@ section {
 
 .left img {
   display: block;
-  width:100%;
+  width: 100%;
   transition: 0.8s;
 }
 
 .left img:not(:first-child) {
   position: absolute;
-  width: 500px;
+  width: 100%;
   height: 100%;
   top: 0;
 }
@@ -106,7 +133,7 @@ section {
   border-radius: 5px;
   overflow: hidden;
   transition: 0.4s;
-  min-width:700px;
+  width: 700px;
 }
 
 .right-part {
@@ -117,12 +144,15 @@ section {
   bottom: 0;
 }
 
-span {
-  color: #FFB600;
-}
-
 .section .right>div {
   color: white;
+  font-weight: 600;
+}
+
+span {
+  color: #FFB600;
+  font-weight: 400;
+  font-family: 'Karla', sans-serif;
 }
 
 .arrow {
@@ -133,9 +163,108 @@ span {
   color: white;
   position: relative;
   z-index: 2;
-  padding:30px;
+  padding: 30px;
 }
 
 .arrow i {
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+}
+
+.popup {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  padding: 50px 10%;
+  overflow-y: scroll;
+  background: #040302;
+  opacity: 0.99;
+  position: absolute;
+  z-index: 3;
+  color: white;
+  transition: 0.5s;
+}
+
+.close-div {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  font-size: 200%;
+}
+
+.popup .images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.small-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border: solid 5px;
+  border-image: linear-gradient(to bottom, #ffb600 0%, #000000 100%) 1;
+  cursor: pointer;
+}
+
+.small-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width:1500px) {
+  .left {
+    width: 500px;
+  }
+  .right {
+    width: 600px;
+  }
+}
+
+@media (max-width:1350px) {
+  .left {
+    width: 400px;
+  }
+  .right {
+    width: 450px;
+  }
+}
+
+@media (max-width:1100px) {
+  .left {
+    width: 370px;
+  }
+  .right {
+    width: 100%;
+  }
+  section {
+    font-size: 90%;
+    padding: 0;
+  }
+}
+
+@media (max-width:875px) {
+  .left {
+    width: 300px;
+  }
+  section {
+    font-size: 80%;
+  }
+}
+
+@media (max-width:775px) {
+  .left {
+    width: 300px;
+  }
+  section {
+    font-size: 70%;
+  }
 }
