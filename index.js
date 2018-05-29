@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const popup = document.querySelector(".popup");
   let index = 0;
 
-  //run through every objects in the array
+  //run through every objects in the array, append images into their containers
   photosInfo.forEach(function(element, index) {
     const {alt, firstName, lastName} = element;
-    src = element.src || "integrify cartoon.png";
+    const src = element.src || "integrify cartoon.png";
 
     //big image display
     document.querySelector(".image").innerHTML += `<img src="img/${src}" alt="${alt}">`;
