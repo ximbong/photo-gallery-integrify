@@ -4,7 +4,7 @@ const photosInfo = [
     lastName: '',
     title: 'Junior Developer',
     nationality: '',
-    src: 'rasbin.jpg',
+    src: 'Rasbin.jpg',
     alt: 'Rasbin',
     skills: [
       'HTML',
@@ -26,7 +26,7 @@ const photosInfo = [
     lastName: 'Gyawali',
     Title: 'Trainee',
     nationality: 'Nepalese',
-    src: 'aditya.jpg',
+    src: 'Aditya.jpg',
     alt: 'Aditya',
     skills: [
       'HTML',
@@ -46,7 +46,7 @@ const photosInfo = [
     lastName: 'Maljici',
     title: 'Junior Javascript Developer ',
     nationality: 'Serbian',
-    src: 'senad.jpg',
+    src: 'Senad.jpg',
     alt: 'Senad',
     skills: [
       'HTML5', 'CSS3', 'Javascript', 'PHP', 'SQL'
@@ -155,7 +155,7 @@ const photosInfo = [
     lastName: 'Mahmud',
     title: 'Aspiring full stack developer',
     nationality: 'Bangladeshi',
-    src: 'tareq.jpg',
+    src: 'Tareq.jpg',
     alt: 'Tareq',
     skills: [
       'Javascript',
@@ -178,7 +178,7 @@ const photosInfo = [
     lastName: 'Ali',
     title: '',
     Nationality: 'Somali',
-    src: 'abdirahman.jpg',
+    src: 'Abdirahman.jpg',
     alt: 'Abdirahman',
     skills: [
       'HTML', 'CSS', 'Javascript', 'Jqeury', 'React'
@@ -193,7 +193,7 @@ const photosInfo = [
     lastName: 'Mahat',
     title: 'Junior Web Developer',
     nationality: 'Nepalese',
-    src: 'sandhya.jpg',
+    src: 'Sandhya.jpg',
     alt: 'Sandhya',
     skills: [
       'HTML5',
@@ -214,7 +214,7 @@ const photosInfo = [
     lastName: 'Alabi',
     title: 'Developer',
     nationality: 'Nigeria',
-    src: 'olujuwon.jpg',
+    src: 'Olujuwon.jpg',
     alt: 'Olujuwon Ayoseyi',
     skills: [
       'Javascript',
@@ -255,7 +255,7 @@ const photosInfo = [
     lastName: 'Bidari',
     title: 'Junior Developer',
     nationality: 'Nepalese',
-    src: 'jaya.jpg',
+    src: 'Jaya.jpg',
     alt: 'I bet,Jaya is here',
     skills: [
       ,
@@ -276,7 +276,7 @@ const photosInfo = [
     lastName: 'Bandaru',
     title: '',
     nationality: 'Indian',
-    src: 'sravanthi.jpg',
+    src: 'Sravanthi.jpg',
     alt: 'Heloooo',
     skills: [
       'HTML', 'CSS', 'JAVASCRIPT', ' PYTHON'
@@ -319,7 +319,7 @@ const photosInfo = [
     lastName: 'Hamamdjian',
     title: 'AD, Web Developer',
     nationality: 'Finnish',
-    src: 'christian.jpg',
+    src: 'Christian.jpg',
     alt: 'christian_hamamdjian',
     skills: [
       'Graphic design', 'HTML5', 'CSS3', 'JavaScript', 'Wordpress'
@@ -334,7 +334,7 @@ const photosInfo = [
     lastName: 'Khan',
     title: 'Trainee Web Developer',
     nationality: 'Slovak',
-    src: 'katarina.jpg',
+    src: 'Katarina.jpg',
     alt: 'Katarina',
     skills: [
       'HTML', 'CSS', 'JavaScript', 'Python'
@@ -349,7 +349,7 @@ const photosInfo = [
     lastName: 'Leung',
     title: 'Trainee Web Developer',
     nationality: 'Hong Kong',
-    src: 'ben.jpg',
+    src: 'Ben.jpg',
     alt: 'poktikbenjamin.jpg',
     skills: [
       'JavaScript', 'CSS', 'HTML', 'Java', 'Business Development'
@@ -364,7 +364,7 @@ const photosInfo = [
     lastName: 'Rahmane',
     title: 'Trainee',
     nationality: 'Latvian',
-    src: 'dita.jpg',
+    src: 'Dita.jpg',
     alt: 'Dita',
     skills: [
       'HTML', 'CSS', 'Javascript', 'jQuery'
@@ -429,7 +429,7 @@ const photosInfo = [
     lastName: 'Zheng',
     title: 'Backend-developer/DevOps',
     nationality: 'China',
-    src: 'andrew.jpg',
+    src: 'Andrew.jpg',
     alt: 'Andrew Zheng',
     skills: [
       'HTML',
@@ -486,7 +486,7 @@ const photosInfo = [
     lastName: 'Le',
     title: 'trainee',
     nationality: 'Vietnamese',
-    src: 'quynh.jpg',
+    src: 'Quynh.jpg',
     alt: 'quynh',
     skills: [
       'HTML', 'CSS', 'JavaScript'
@@ -521,7 +521,7 @@ const photosInfo = [
     lastName: 'Rahman',
     title: 'Trainee Web Developer',
     nationality: 'Bangladesh',
-    src: 'saidur.jpg',
+    src: 'Saidur.jpg',
     alt: 'My Image',
     skills: [
       'HTML',
@@ -557,7 +557,7 @@ const photosInfo = [
     lastName: 'Amtya',
     title: 'Trainee',
     nationality: 'Nepalese',
-    src: 'rojak.jpg',
+    src: 'Rojak.jpg',
     alt: 'rojak',
     skills: [
       'HTML', 'CSS', 'JS'
@@ -592,7 +592,7 @@ const photosInfo = [
     lastName: 'Mujawar',
     title: 'Junior Front-end Developer',
     nationality: 'Indian',
-    src: 'arifa.jpg',
+    src: 'Arifa.jpg',
     alt: 'arifa',
     skills: [
       'HTML5',
@@ -618,7 +618,7 @@ const photosInfo = [
     lastName: 'Idrissi Akhelij',
     title: 'Trainee at Integrify',
     nationality: 'Moroccan',
-    src: 'mouhssine.jpg',
+    src: 'Mouhssine.jpg',
     alt: 'mouhssine',
     skills: [
       'CSS', 'HTML5', 'JavaScript'
