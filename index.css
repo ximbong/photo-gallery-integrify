@@ -242,7 +242,7 @@ span {
 
 @media (max-width:1500px) {
   .section {
-    grid-template-columns: 500px 600px;
+    grid-template-columns: 450px 550px;
   }
 }
 
